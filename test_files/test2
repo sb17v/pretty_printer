@@ -1,0 +1,61 @@
+// This is sample test file
+// to test project 2
+// of compiler class
+#include<stdio.h>
+#include<stdlib.h> 
+#define HEIGHT 100
+
+//global variable
+int circle = 10;
+float rectangle = 25.0E-6;
+
+void dummy(int j);
+
+int main(int argc, **char argv)
+{
+	printf("hello world");
+	int i = 10;
+	float f = 3.14e6;
+	char a = '\n';
+	*char = "Soumak";
+	int oct = 012;
+	int hex = 0x24;
+	int size=sizeof(i);
+
+	int j;
+
+	/* this is  multiline comment
+	int i = 100;
+	fp = 25.67;*/
+
+	for(j=0;j<20;j++)
+	{
+		if(j==i)
+			printf("found j");
+		else
+		{
+			j--;
+			printf("j could not be found");
+		}	
+	}
+	//this is an inline comment;
+	getchar();
+
+}
+
+void dummy(int j)
+{
+	int x = 10;
+	int i;
+	int y = - -x;
+	int z = --x;
+	for (i = 0; i< 10; i++)
+	{
+/* this is  multiline comment
+	int i = 100;
+	fp = 25.67;*/	
+		x += 5;
+		printf("Hellow World");
+	//this is an inline comment;	
+	}
+}
